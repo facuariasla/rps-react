@@ -1,0 +1,14 @@
+.header{
+  font-family: 'Odibee Sans', cursive;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: #ba0a3f;
+}

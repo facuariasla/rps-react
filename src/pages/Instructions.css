@@ -1,0 +1,31 @@
+.instructions-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20vh 1fr 1fr 1fr;
+  height: 100vh;
+  background-image: url('../assets/fondo.svg');
+}
+
+.instructions_text-container{
+  font-family: 'Special Elite', cursive;
+  font-size: 2em;
+  color: #000;
+  text-align: center;
+  margin: 0 20px;
+}
+@media screen and (max-width: 450px) {
+  .instructions_text-container h2{
+    font-size: 1em;
+  }
+}
+
+.btn-container{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.figs-container{
+  display: grid;
+  justify-items: center;
+}

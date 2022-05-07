@@ -1,0 +1,16 @@
+.blue-btn{
+  height: 4rem;
+  width: 15rem;
+  font-size: 34px;
+  font-family: 'Odibee Sans', cursive;
+  background-color: #006CFC;
+  border: 6px solid #001997;
+  color: #fff;
+  border-radius: 5px;
+}
+
+button:active {
+  box-shadow: 7px 6px 15px 1px rgba(0, 0, 0, 0.24);
+  transform: translateY(4px);
+  background-color: #368af8;
+}

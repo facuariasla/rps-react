@@ -1,0 +1,9 @@
+.game-container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  background-image: url('../assets/fondo.svg');
+}
+
